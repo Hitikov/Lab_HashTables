@@ -20,10 +20,10 @@ bool add(HashTableChain& table, std::string key, std::string custData) {
 		NodeChain* current = table.table[hash];
 		while (current->ptrNext != nullptr) {
 			current = current->ptrNext;
+			collisionCount++;
 		}
 		current->ptrNext = newNode;
 		newNode->ptrPrev = current;
-		collisionCount++;
 		return true;
 	}
 }

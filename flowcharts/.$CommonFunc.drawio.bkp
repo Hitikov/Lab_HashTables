@@ -1,0 +1,31 @@
+<mxfile host="Electron" modified="2024-05-20T07:06:11.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="3y2aDahvCRNKQ-VMLChy" version="24.4.0" type="device">
+  <diagram name="Страница — 1" id="rGrHHUrXfjMIFii0UpsW">
+    <mxGraphModel dx="497" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qYmYGDqK28Jx-tqPWHub-1" value="double mod1(double k)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/*Возвращает дробную часть числа*/&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;size=0.041666666666666664;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYmYGDqK28Jx-tqPWHub-2" value="int getHash(double k)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/*Возвращает хэш код для значения с плавающей точкой*/&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;size=0.041666666666666664;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qYmYGDqK28Jx-tqPWHub-4" value="int getHash(std::string line)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/&lt;span style=&quot;background-color: initial;&quot;&gt;*Возвращает хэш код для строки*/&lt;/span&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;size=0.041666666666666664;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYmYGDqK28Jx-tqPWHub-5" value="string correctStr(int n, int size)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/*Перевод числа в строку с подгонкой размера строки*/&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;size=0.041666666666666664;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qYmYGDqK28Jx-tqPWHub-8" value="string makeName()&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/*Возвращает строку имени*/&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;size=0.041666666666666664;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYmYGDqK28Jx-tqPWHub-9" value="string makeDate()&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/*Возвращает строку даты*/&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;size=0.041666666666666664;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYmYGDqK28Jx-tqPWHub-10" value="&lt;div&gt;string makePass()&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/*Возвращает строку номера паспорта*/&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;size=0.041666666666666664;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="240" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
